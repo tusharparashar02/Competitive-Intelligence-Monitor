@@ -1,0 +1,36 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=CompetitiveIntelligenceDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+  },
+  "JwtSettings": {
+    "Secret": "YOUR_JWT_SECRET_MINIMUM_32_CHARACTERS_LONG",
+    "Issuer": "CompetitiveIntelligenceAPI",
+    "Audience": "CompetitiveIntelligenceFrontend",
+    "ExpiryInDays": 7
+  },
+  "GroqApi": {
+    "BaseUrl": "https://api.groq.com/openai/v1",
+    "ApiKey": "YOUR_GROQ_API_KEY",
+    "Model": "llama3-8b-8192"
+  },
+  "RedditApi": {
+    "ClientId": "YOUR_REDDIT_CLIENT_ID",
+    "ClientSecret": "YOUR_REDDIT_CLIENT_SECRET",
+    "UserAgent": "CompetitiveIntelligenceMonitor/1.0"
+  },
+  "EmailSettings": {
+    "ApiKey": "YOUR_RESEND_API_KEY",
+    "FromEmail": "noreply@yourdomain.com",
+    "FromName": "CompeteIQ"
+  },
+  "Hangfire": {
+    "DashboardPath": "/hangfire"
+  }
+}

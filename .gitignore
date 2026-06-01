@@ -1,0 +1,24 @@
+# ── Backend ──────────────────────────────────────────────
+Backend/bin/
+Backend/obj/
+Backend/.vs/
+
+# Secrets — copy *.example files and fill in your values
+Backend/appsettings.Development.json
+Backend/appsettings.Production.json
+
+# ── Frontend ─────────────────────────────────────────────
+Frontend/node_modules/
+Frontend/dist/
+
+# Environment files — copy .env.example and fill in your values
+Frontend/.env
+Frontend/.env.*
+!Frontend/.env.example
+
+# ── OS / Editor ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+*.suo
+*.user
