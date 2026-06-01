@@ -1,4 +1,4 @@
-# 🔍 CompetitorIQ — Competitive Intelligence Monitor
+# CompetitorIQ — Competitive Intelligence Monitor
 
 <div align="center">
 
@@ -11,10 +11,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
 [![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Available-22C55E?style=for-the-badge)](https://your-vercel-app.vercel.app)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-
 </div>
 
 ---
@@ -461,5 +457,7 @@ git push origin feature/your-feature-name
 **⭐ Star this repo if you found it useful!**
 
 *Built with ❤️ using React, ASP.NET Core 8, and Groq AI*
+
+**⭐ Developed By- Tushar Parashar**
 
 </div>
