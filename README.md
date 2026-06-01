@@ -15,30 +15,13 @@
 
 ---
 
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Why CompetitorIQ](#-why-competitoriq)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [API Endpoints](#-api-endpoints)
-- [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
-- [Roadmap](#-roadmap)
-- [Author](#-author)
-
----
-
 ## 🧠 Overview
 
 **CompetitorIQ** is a full stack SaaS application that automatically monitors competitor activity across multiple data sources and delivers AI-synthesized weekly intelligence briefings to businesses.
 
 Instead of manually tracking competitor websites, job boards, and community forums — CompetitorIQ runs silently in the background 24/7, collects signals across sources, detects meaningful changes, and uses **Groq AI (Llama 3.3 70B)** to synthesize everything into plain-English insights delivered every Monday morning.
 
-> 💡 Similar commercial tools like **Crayon** and **Klue** charge **$800–$1,500/month**.  
+> 💡 Similar commercial tools like charge **$800–$1,500/month**.  
 > CompetitorIQ delivers comparable intelligence at **zero infrastructure cost** using free tier services.
 
 ---
@@ -410,46 +393,6 @@ competitoriq/
     │   └── utils/
     ├── .env.example                ← copy → .env.development / .env.production
     └── vite.config.js
-```
-
----
-
-## 🗺 Roadmap
-
-- [x] User authentication with JWT
-- [x] Competitor management CRUD
-- [x] RSS changelog monitoring
-- [x] Reddit sentiment tracking
-- [x] Job posting scraper
-- [x] Page change monitoring with Playwright
-- [x] Groq AI weekly report generation
-- [x] Real-time SignalR alerts
-- [x] Email delivery via Resend
-- [ ] GitHub OAuth login
-- [ ] Multi-user team workspace
-- [ ] Competitor comparison view
-- [ ] Export reports to PDF
-- [ ] Mobile app (React Native)
-- [ ] Chrome extension for quick competitor add
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-```bash
-# Fork the repository
-# Create your feature branch
-git checkout -b feature/your-feature-name
-
-# Commit your changes
-git commit -m "feat: add your feature description"
-
-# Push to the branch
-git push origin feature/your-feature-name
-
-# Open a Pull Request
 ```
 
 <div align="center">
